@@ -54,6 +54,10 @@
 - **Routing**: React Router for page navigation.
 - **Loading Skeletons**: Use `react-loading-skeleton` for smooth loading states.
 - **Toast Notifications**: `react-toastify` for displaying notification messages.
+- Lazy Loading(Suspense)
+- jsdocs
+- Screen Recording
+- RTK(Query,Mutation)
 
 ## Project Setup
 
