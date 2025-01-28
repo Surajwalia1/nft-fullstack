@@ -1,0 +1,51 @@
+/* index.css */
+
+/* Customize the Skeleton Loader */
+.skeleton {
+    display: inline-block;
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite linear;
+    border-radius: 4px;
+  }
+  
+  .skeleton-text {
+    height: 20px;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .skeleton-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .skeleton-box {
+    height: 200px;
+    width: 100%;
+  }
+  
+  .skeleton-image {
+    height: 200px;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  @keyframes loading {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+  
+  /* Add this if you need to apply the skeleton to a full section */
+  .skeleton-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
